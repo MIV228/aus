@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AMOGUS">
-        <activity android:name=".Continue"></activity>
+        <activity android:name=".Options"></activity>
+        <activity android:name=".LoadGame" />
+        <activity android:name=".NewGame" />
+        <activity android:name=".Continue" />
         <activity android:name=".MainMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

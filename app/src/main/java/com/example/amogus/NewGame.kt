@@ -3,17 +3,9 @@ package com.example.amogus
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Continue : AppCompatActivity() {
+class NewGame : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_continue)
-
-
-
-
-
-
-
-
+        setContentView(R.layout.activity_new_game)
     }
 }
