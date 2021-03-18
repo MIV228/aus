@@ -19,19 +19,19 @@ class MainMenu : AppCompatActivity() {
         }
 
         val newgame = findViewById<Button>(R.id.b_newgame)
-        continue_game.setOnClickListener {
+        newgame.setOnClickListener {
             val ActivitySwitcher = Intent(this , NewGame::class.java)
             startActivity(ActivitySwitcher)
         }
 
         val loadgame = findViewById<Button>(R.id.b_loadgame)
-        continue_game.setOnClickListener {
+        loadgame.setOnClickListener {
             val ActivitySwitcher = Intent(this , LoadGame::class.java)
             startActivity(ActivitySwitcher)
         }
 
         val gameoptions = findViewById<Button>(R.id.b_options)
-        continue_game.setOnClickListener {
+        gameoptions.setOnClickListener {
             val ActivitySwitcher = Intent(this , Options::class.java)
             startActivity(ActivitySwitcher)
         }
