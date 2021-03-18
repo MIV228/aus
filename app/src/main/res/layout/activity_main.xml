@@ -15,7 +15,7 @@
         android:text="MainGame"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="46dp" />
 
     <LinearLayout
         style="@style/Button"
@@ -30,35 +30,35 @@
         tools:ignore="UnknownId">
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/b_continue"
             style="@style/Button"
             android:fontFamily="@font/didact_gothic"
             android:text="continue"
             app:backgroundTint="@color/black" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/b_newgame"
             style="@style/Button"
             android:fontFamily="@font/didact_gothic"
             android:text="New Game"
             app:backgroundTint="@color/black" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/b_loadgame"
             style="@style/Button"
             android:fontFamily="@font/didact_gothic"
             android:text="load game"
             app:backgroundTint="@color/black" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/b_options"
             style="@style/Button"
             android:fontFamily="@font/didact_gothic"
             android:text="options"
             app:backgroundTint="@color/black" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/b_exit"
             style="@style/Button"
             android:fontFamily="@font/didact_gothic"
             android:text="exit"
