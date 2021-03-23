@@ -9,12 +9,14 @@
 
 
     <ImageView
-        android:layout_width="798dp"
-        android:layout_height="284dp"
+        android:layout_width="1744dp"
+        android:layout_height="167dp"
         android:src="@mipmap/sus"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-194dp"
-        tools:layout_editor_absoluteY="-47dp" />
+        tools:layout_editor_absoluteX="-667dp" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
